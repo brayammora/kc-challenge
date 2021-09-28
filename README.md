@@ -2,7 +2,7 @@
 
 ## How the app works
 
-![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/appWorking.gif)
+![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/AppWorking.gif)
 
 ## Instalation
 This project require XCode 13.0, Swift 5.0 and should be run on device with iOS 14+ and then, you should `run` the app.
