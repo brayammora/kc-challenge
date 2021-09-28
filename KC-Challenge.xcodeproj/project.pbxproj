@@ -11,6 +11,7 @@
 		BC0E718B2703A8EA00AFB226 /* ModulesCapture.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E71872703A8E900AFB226 /* ModulesCapture.png */; };
 		BC0E718C2703A8EA00AFB226 /* AppCapture.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E71882703A8E900AFB226 /* AppCapture.png */; };
 		BC0E718D2703A8EA00AFB226 /* UnitTestCapture.png in Resources */ = {isa = PBXBuildFile; fileRef = BC0E71892703A8EA00AFB226 /* UnitTestCapture.png */; };
+		BC1AF4652703B1EA003A7A15 /* AppWorking.gif in Resources */ = {isa = PBXBuildFile; fileRef = BC1AF4642703B1EA003A7A15 /* AppWorking.gif */; };
 		BC22540927037FE3009CFB06 /* ContactTableViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22540827037FE3009CFB06 /* ContactTableViewControllerTest.swift */; };
 		BC22540C27039004009CFB06 /* ContactPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22540B27039004009CFB06 /* ContactPresenterTest.swift */; };
 		BC22540F270392B2009CFB06 /* GetContactsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22540E270392B2009CFB06 /* GetContactsInteractorTest.swift */; };
@@ -58,7 +59,6 @@
 		BCA560F4270123CF003FA5D2 /* DetailContactTableViewSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA560F3270123CF003FA5D2 /* DetailContactTableViewSections.swift */; };
 		BCA560F727012A08003FA5D2 /* DetailContactProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA560F627012A08003FA5D2 /* DetailContactProfileTableViewCell.swift */; };
 		BCA560FA27012E9D003FA5D2 /* DetailContactItemInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA560F927012E9D003FA5D2 /* DetailContactItemInfoTableViewCell.swift */; };
-		BCBA02622703AD31000E1C7C /* appWorking.gif in Resources */ = {isa = PBXBuildFile; fileRef = BCBA02612703AD31000E1C7C /* appWorking.gif */; };
 		BCE567B326FFD2ED00DC242A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE567B226FFD2ED00DC242A /* AppDelegate.swift */; };
 		BCE567B526FFD2ED00DC242A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE567B426FFD2ED00DC242A /* SceneDelegate.swift */; };
 		BCE567BC26FFD2F000DC242A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE567BB26FFD2F000DC242A /* Assets.xcassets */; };
@@ -90,6 +90,7 @@
 		BC0E71872703A8E900AFB226 /* ModulesCapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ModulesCapture.png; sourceTree = "<group>"; };
 		BC0E71882703A8E900AFB226 /* AppCapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppCapture.png; sourceTree = "<group>"; };
 		BC0E71892703A8EA00AFB226 /* UnitTestCapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnitTestCapture.png; sourceTree = "<group>"; };
+		BC1AF4642703B1EA003A7A15 /* AppWorking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AppWorking.gif; sourceTree = "<group>"; };
 		BC22540827037FE3009CFB06 /* ContactTableViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewControllerTest.swift; sourceTree = "<group>"; };
 		BC22540B27039004009CFB06 /* ContactPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPresenterTest.swift; sourceTree = "<group>"; };
 		BC22540E270392B2009CFB06 /* GetContactsInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetContactsInteractorTest.swift; sourceTree = "<group>"; };
@@ -137,7 +138,6 @@
 		BCA560F3270123CF003FA5D2 /* DetailContactTableViewSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactTableViewSections.swift; sourceTree = "<group>"; };
 		BCA560F627012A08003FA5D2 /* DetailContactProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactProfileTableViewCell.swift; sourceTree = "<group>"; };
 		BCA560F927012E9D003FA5D2 /* DetailContactItemInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactItemInfoTableViewCell.swift; sourceTree = "<group>"; };
-		BCBA02612703AD31000E1C7C /* appWorking.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = appWorking.gif; sourceTree = "<group>"; };
 		BCE567AF26FFD2ED00DC242A /* KC-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KC-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE567B226FFD2ED00DC242A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE567B426FFD2ED00DC242A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,8 +179,8 @@
 		BC0E71852703A82300AFB226 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				BC1AF4642703B1EA003A7A15 /* AppWorking.gif */,
 				BC508CD82703AE9100813C36 /* ServicesCapture.png */,
-				BCBA02612703AD31000E1C7C /* appWorking.gif */,
 				BC0E71882703A8E900AFB226 /* AppCapture.png */,
 				BC0E71872703A8E900AFB226 /* ModulesCapture.png */,
 				BC0E71862703A8E900AFB226 /* ExtensionsCapture.png */,
@@ -654,10 +654,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCBA02622703AD31000E1C7C /* appWorking.gif in Resources */,
 				BC0E718C2703A8EA00AFB226 /* AppCapture.png in Resources */,
 				BC508CD92703AE9100813C36 /* ServicesCapture.png in Resources */,
 				BC0E718D2703A8EA00AFB226 /* UnitTestCapture.png in Resources */,
+				BC1AF4652703B1EA003A7A15 /* AppWorking.gif in Resources */,
 				BC0E718A2703A8EA00AFB226 /* ExtensionsCapture.png in Resources */,
 				BCE567BF26FFD2F000DC242A /* LaunchScreen.storyboard in Resources */,
 				BC0E718B2703A8EA00AFB226 /* ModulesCapture.png in Resources */,
