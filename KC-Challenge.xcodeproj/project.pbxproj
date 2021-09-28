@@ -15,6 +15,7 @@
 		BC22540C27039004009CFB06 /* ContactPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22540B27039004009CFB06 /* ContactPresenterTest.swift */; };
 		BC22540F270392B2009CFB06 /* GetContactsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22540E270392B2009CFB06 /* GetContactsInteractorTest.swift */; };
 		BC22541327039908009CFB06 /* ContactsRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC22541227039908009CFB06 /* ContactsRepositoryTest.swift */; };
+		BC508CD92703AE9100813C36 /* ServicesCapture.png in Resources */ = {isa = PBXBuildFile; fileRef = BC508CD82703AE9100813C36 /* ServicesCapture.png */; };
 		BC5C635427035923009CE5C6 /* MockContactRepositoryInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C635327035923009CE5C6 /* MockContactRepositoryInput.swift */; };
 		BC5C63562703593C009CE5C6 /* MockContactRepositoryOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C63552703593C009CE5C6 /* MockContactRepositoryOutput.swift */; };
 		BC5C635927035E49009CE5C6 /* MockContactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5C635827035E49009CE5C6 /* MockContactService.swift */; };
@@ -93,6 +94,7 @@
 		BC22540B27039004009CFB06 /* ContactPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactPresenterTest.swift; sourceTree = "<group>"; };
 		BC22540E270392B2009CFB06 /* GetContactsInteractorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetContactsInteractorTest.swift; sourceTree = "<group>"; };
 		BC22541227039908009CFB06 /* ContactsRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsRepositoryTest.swift; sourceTree = "<group>"; };
+		BC508CD82703AE9100813C36 /* ServicesCapture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ServicesCapture.png; sourceTree = "<group>"; };
 		BC5C635327035923009CE5C6 /* MockContactRepositoryInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContactRepositoryInput.swift; sourceTree = "<group>"; };
 		BC5C63552703593C009CE5C6 /* MockContactRepositoryOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContactRepositoryOutput.swift; sourceTree = "<group>"; };
 		BC5C635827035E49009CE5C6 /* MockContactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContactService.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 		BC0E71852703A82300AFB226 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				BC508CD82703AE9100813C36 /* ServicesCapture.png */,
 				BCBA02612703AD31000E1C7C /* appWorking.gif */,
 				BC0E71882703A8E900AFB226 /* AppCapture.png */,
 				BC0E71872703A8E900AFB226 /* ModulesCapture.png */,
@@ -653,6 +656,7 @@
 			files = (
 				BCBA02622703AD31000E1C7C /* appWorking.gif in Resources */,
 				BC0E718C2703A8EA00AFB226 /* AppCapture.png in Resources */,
+				BC508CD92703AE9100813C36 /* ServicesCapture.png in Resources */,
 				BC0E718D2703A8EA00AFB226 /* UnitTestCapture.png in Resources */,
 				BC0E718A2703A8EA00AFB226 /* ExtensionsCapture.png in Resources */,
 				BCE567BF26FFD2F000DC242A /* LaunchScreen.storyboard in Resources */,
