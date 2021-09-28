@@ -1,5 +1,9 @@
 # kc-challenge
 
+## How the app works
+
+![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/appWorking.gif)
+
 ## Instalation
 This project require XCode 13.0, Swift 5.0 and should be run on device with iOS 14+ and then, you should `run` the app.
 
@@ -38,17 +42,17 @@ With the following practices, we've achieved create a product with highly qualit
 ### App Folder
 > Is a folder which have the appDelegate, sceneDelegate, and, LaunchScreenStoryboard).
 
-![alt text]()
+![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/AppCapture.png)
 
 ### Modules
 > In this folder we have each app module. In this case we have a Contact, and DetailContact Module, where we can find a viper architecture for each module. This architecture allow us to define single responsabilities for each layer.
 
-![alt text]()
+![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/ModulesCapture.png)
 
 ### Extensions
 > In this folder we can find a multiples extensions. The main idea of this folder is have a transversal module which help us with reusables functions.
 
-![alt text]()
+![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/ExtensionsCapture.png)
 
 ### Services
 > This layer allows us to separate in a single context everything related to networking and web services.
@@ -58,4 +62,4 @@ With the following practices, we've achieved create a product with highly qualit
 ### Unit Test
 > In this section we have the unit test structure, this folder meets the Viper architecture requirements. To continue, we can find a Test Double approach where we use Mocks, and Stubs doubles to test the differents architecture layers.
 
-![alt text]()
+![alt text](https://github.com/brayammora/kc-challenge/blob/main/Screenshots/UnitTestCapture.png)
