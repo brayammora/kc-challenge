@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Contact: Codable {
+struct Contact: Codable {
     let name: String
     let id: String
     let companyName: String?
@@ -19,18 +19,6 @@ class Contact: Codable {
     let phone: Phone
     let address: Address
     
-    public init(name: String, id: String, companyName: String?, isFavorite: Bool, smallImageURL: String, largeImageURL: String, emailAddress: String, birthdate: String, phone: Phone, address: Address) {
-        self.name = name
-        self.id = id
-        self.companyName = companyName
-        self.isFavorite = isFavorite
-        self.smallImageURL = smallImageURL
-        self.largeImageURL = largeImageURL
-        self.emailAddress = emailAddress
-        self.birthdate = birthdate
-        self.phone = phone
-        self.address = address
-    }
 }
 
 extension Array where Element == Contact {
